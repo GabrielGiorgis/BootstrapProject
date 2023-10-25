@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gran sabor</title>
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CDN Bootstrap ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css\servicios.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <!--ICON-->
+            <a class="navbar-brand" href="/">Desarrollo en Argentina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tareas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                            <a class="dropdown-item" href="diseño.html">Diseño UX/UI</a>
+                            <a class="dropdown-item" href="">Base de datos</a>
+                            <a class="dropdown-item" href="">Testing</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="d-md-none">
+                    <ul class="navbar-nav me-auto-mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-flex gap-2">
+                    <a class="nav-item nav-link p-1" href="">
+                        <!--Tecket-->
+                        <i class="bi bi-basket" style="font-size: 1.2rem;"></i>
+                    </a>
+                    <a class="nav-item nav-link p-1"href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <!--Usuario-->
+                        <i class="bi bi-person" style="font-size: 1.2rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Login-->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Ingreso</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email o nombre de usuario</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Mantenerme conectado</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="main vh-100 d-flex align-items-center">
+        <div class="container col-10 m-auto d-flex align-items-end justify-content-around m" >
+            <div class="product m-5">
+                <div class="row gap-4">
+                    <!--Desktop-->
+                    <div class="d-none d-md-block col d-flex justify-content-center p-0">
+                      <img id="process-image" class = "col-5" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="">
+                      <div class="info"> 
+                        <span id="process-title" class="fs-1 text-dark-emphasis">Titulo</span>
+                        <p id="process-description" class="fs-4 text-dark-emphasis">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ipsa nulla ea dignissimos ut velit voluptas doloribus vel similique numquam, sapiente quos, odio nobis facilis itaque ipsam excepturi enim. Tenetur?
+                        </p>
+                        
+                        </p>
+                        <p>RESPONSABLE:
+                            <p id="process-responsible" class="lead">NN NN</p>
+                        </p>
+                        <p>Este servicio se encuentra:
+                            <p id="process-status" class="lead">---</p>
+                        </p>
+                        <button type="button" class="btn btn-dark">Solicitar</button>
+                      </div>
+                      </div>
+                    <!--Mobile-->
+                    <div class="d-block d-md-none row d-flex justify-content-center p-0">
+                      <img class = "col-11" src="./assets/img/PorHacer.svg" alt="">
+                      <div class="info"> 
+                        <span class="fs-1 text-dark-emphasis">Consultoría</span>
+                        <p class="fs-4 text-dark-emphasis">
+                          Nuestro equipo de expertos en programación y desarrollo de software está listo para brindarte asesoramiento especializado en una amplia variedad de temas, desde desarrollo web y móvil hasta arquitectura de software y soluciones personalizadas.
+                        </p>
+                        <button type="button" class="btn btn-dark">Solicitar</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">Colmena Tec</a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 El Atareado, Inc</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-twitter-x"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+    <!--CDN Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--JS-->
+    <script type="module" src="./lib/pages/detalle.js"></script>
+</body>
+</html>

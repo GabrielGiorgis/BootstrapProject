@@ -1,0 +1,40 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "title": "Consultoria",
+      "description": "Nuestro equipo de expertos en programación y desarrollo de software está listo para brindarte asesoramiento especializado en una amplia variedad de temas, desde desarrollo web y móvil hasta arquitectura de software y soluciones personalizadas.",
+      "time": "00:20",
+      "image": "https://images.pexels.com/photos/2977565/pexels-photo-2977565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "responsible": "Juan Antonio Perez",
+      "status": "Disponible"
+    },
+    {
+      "id": 2,
+      "title": "Diseño",
+      "description": "Ofrecemos un servicio de diseño de aplicaciones personalizadas que combina creatividad, funcionalidad y experiencia de usuario excepcional.",
+      "time": "01:15",
+      "image": "https://images.pexels.com/photos/11813187/pexels-photo-11813187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "responsible": "Ana María López",
+      "status": "Con alta demana"
+    },
+    {
+      "id": 3,
+      "title": "Base de datos",
+      "description": "Brindamos un servicio integral de creación y mantenimiento de bases de datos diseñado para optimizar la gestión de tus datos comerciales.",
+      "time": "00:45",
+      "image": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "responsible": "Carlos Rodríguez",
+      "status": "Sin disponibilidad"
+    },
+    {
+      "id": 4,
+      "title": "Testing",
+      "description": "Ofrecemos servicios de prueba de aplicaciones que aseguran la calidad y el rendimiento de tus productos digitales. Nuestro equipo de expertos en pruebas se encarga de evaluar minuciosamente tus aplicaciones, identificar posibles problemas y garantizar que funcionen sin problemas en una variedad de entornos y dispositivos.",
+      "time": "02:30",
+      "image": "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "responsible": "Luisa Fernández",
+      "status": "Deshabilitada"
+    }
+  ]
+}

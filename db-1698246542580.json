@@ -1,0 +1,40 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "title": "Proceso de espera",
+      "description": "Se está realizando la solicitud de compra de pizza para un cliente que espera con ansias una deliciosa cena italiana.",
+      "time": "00:20",
+      "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "responsible": "Juan Antonio Perez",
+      "status": "en produccion"
+    },
+    {
+      "id": 2,
+      "title": "Tarea importante",
+      "description": "El equipo se encuentra preparando una serie de hamburguesas a pedido de un cliente que considera esta comida como una prioridad.",
+      "time": "01:15",
+      "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "responsible": "Ana María López",
+      "status": "por hacer"
+    },
+    {
+      "id": 3,
+      "title": "Pedido urgente",
+      "description": "Un cliente ha solicitado la entrega de sushi a domicilio con carácter urgente, y el equipo se encuentra trabajando para cumplir con su demanda en un tiempo récord.",
+      "time": "00:45",
+      "image": "https://images.pexels.com/photos/5900883/pexels-photo-5900883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "responsible": "Carlos Rodríguez",
+      "status": "por testear"
+    },
+    {
+      "id": 4,
+      "title": "Producción continua",
+      "description": "La fabricación de empanadas se encuentra en pleno desarrollo, y se espera una producción constante para atender la demanda de los clientes.",
+      "time": "02:30",
+      "image": "https://images.pexels.com/photos/12917975/pexels-photo-12917975.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "responsible": "Luisa Fernández",
+      "status": "terminada"
+    }
+  ]
+}
